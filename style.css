@@ -3,3 +3,7 @@ nav-link{
     text-decoration: none;
     padding-left: 30px;
 }
+
+.custom-m{
+    margin: 5px;
+}
