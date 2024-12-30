@@ -253,3 +253,26 @@ nav-link{
     }
     
 }
+
+@media screen and (max-width: 290px) {
+    .custom-m {
+        width: 130px !important;
+    }
+    
+}
+
+@media screen and (max-width: 280px) {
+    .custom-m {
+        width: 125px !important;
+        font-size: small;
+    }
+    
+}
+
+@media screen and (max-width: 270px) {
+    .custom-m {
+        width: 120px !important;
+        /* font-size: small; */
+    }
+    
+}
