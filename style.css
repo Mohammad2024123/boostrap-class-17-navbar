@@ -9,6 +9,12 @@ nav-link{
     width: 273px !important;
 }
 
+.custom-height{
+    height: 250px;
+}
+
+/* Divice Responsive */
+
 @media screen and (max-width: 1205px) {
     .custom-m {
         width: 274px !important;
@@ -275,4 +281,41 @@ nav-link{
         /* font-size: small; */
     }
     
+}
+
+/* footer */
+
+@media screen and (max-width:992px) 
+{
+    .custom-height  {
+        height: 300px;
+    }
+}
+
+@media screen and (max-width:770px) 
+{
+    .custom-height  {
+        height: 290px;
+    }
+}
+
+@media screen and (max-width:768px) 
+{
+    .custom-height  {
+        height: 320px;
+    }
+}
+
+@media screen and (max-width:520px) 
+{
+    .custom-height  {
+        height: 330px;
+    }
+}
+
+@media screen and (max-width:515px) 
+{
+    .custom-height  {
+        height: 335px;
+    }
 }
